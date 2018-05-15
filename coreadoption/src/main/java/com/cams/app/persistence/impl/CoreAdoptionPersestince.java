@@ -13,9 +13,6 @@ public class CoreAdoptionPersestince implements ICoreAdoptionPersestince{
 	
 	@Override
 	public void insertCoreAoption(CoreAdoption coreAdoption) {
-		
 		coreAdoptionRepository.saveAndFlush(coreAdoption);
 	}
-
-
 }

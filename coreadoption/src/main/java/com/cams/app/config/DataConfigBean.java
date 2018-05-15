@@ -21,22 +21,22 @@ public class DataConfigBean {
 	public ICoreAdoption coreAdoption() {
 		return new CoreAdoption();
 	}
-	
+
 	@Bean
 	public ICoreAdoptionBundle coreAdoptionBundle() {
 		return new CoreAdoptionBundle();
 	}
-	
+
 	@Bean
 	public IMSDetails msDetails() {
 		return new MSDetails();
 	}
-	
+
 	@Bean
 	public IPrivateFix privateFix() {
 		return new PrivateFix();
 	}
-	
+
 	@Bean
 	public ITRN trn() {
 		return new TRN();

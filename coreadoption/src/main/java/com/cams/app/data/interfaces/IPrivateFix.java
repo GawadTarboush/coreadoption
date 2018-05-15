@@ -15,9 +15,9 @@ public interface IPrivateFix {
 
 	String getStatus();
 
-	void setFixEstedHf(String fixEstedHf);
+	void setFixEstedHf(int fixEstedHf);
 
-	String getFixEstedHf();
+	int getFixEstedHf();
 
 	void setHfType(String hfType);
 

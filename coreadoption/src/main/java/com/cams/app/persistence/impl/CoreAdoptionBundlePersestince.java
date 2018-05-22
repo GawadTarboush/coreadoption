@@ -6,11 +6,11 @@ import com.cams.app.data.impl.CoreAdoptionBundle;
 import com.cams.app.persistence.interfaces.ICoreAdoptionBundlePersestince;
 import com.cams.app.repository.intrafaces.CoreAdoptionBundleRepository;
 
-public class CoreAdoptionBundlePersestince implements ICoreAdoptionBundlePersestince{
+public class CoreAdoptionBundlePersestince implements ICoreAdoptionBundlePersestince {
 
 	@Autowired
-	private CoreAdoptionBundleRepository coreAdoptionBundleRepository; 
-	
+	private CoreAdoptionBundleRepository coreAdoptionBundleRepository;
+
 	@Override
 	public void insertCoreAdoptionBundlePersestince(CoreAdoptionBundle coreAdoptionBundle) {
 		coreAdoptionBundleRepository.saveAndFlush(coreAdoptionBundle);

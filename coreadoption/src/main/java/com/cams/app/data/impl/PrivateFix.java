@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import com.cams.app.data.interfaces.IPrivateFix;
 
 @Entity
-@Table(name = "privatefix")
+@Table(name = "PRIVATE_FIX")
 public class PrivateFix implements IPrivateFix {
 
 	@Id
